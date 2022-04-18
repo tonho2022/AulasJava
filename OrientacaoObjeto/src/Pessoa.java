@@ -7,10 +7,8 @@ public class Pessoa {
 	void receber(int numfigurinhas) {
 		this.numFigurinhas += numfigurinhas;
 	}
-
-	void dar (int numFigurinhas, Pessoa pessoa) {
 		
-		boolean dar(int numFigurinhas, Pessoa pessoa)
+		boolean dar(int numFigurinhas, Pessoa pessoa) {
 		
 		
 	if(this.numFigurinhas<numFigurinhas) {
