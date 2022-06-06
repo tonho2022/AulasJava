@@ -1,21 +1,20 @@
 
-public class Triangulo implements AreaCalculavel {
+public class Quadrado implements AreaCalculavel{
 
-int base=16;
-int altura=12;
+	private int y; 
 	
 	
-	
-	
-	@Override
-	public void CalcularArea() {
-		int area;
-		area=base*altura/2;
-		System.out.println("A area do trianguo � "+ area +"cm2");
-		
+	public int getY() {
+		return y;
 	}
 
+	public void setY(int y) {
+		this.y = y;
+	}
 
-			
-	
+	@Override
+	public void calcularArea() {
+		System.out.println("A área do quadrado é " + Math.pow(y, 2)); 
+	}
+
 }
