@@ -1,18 +1,39 @@
 
 public class Retangulo implements AreaCalculavel {
 
-int base= 40;
-int altura=60;
-@Override
-public void CalcularArea() {
+	private int b; 
+	private int h; 
 	
-	int area;
-	area=base*altura;
-	System.out.println("A area do retangulo � "+ area +"cm2");
+	
+	public int getB() {
+		return b;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+
+	public int getH() {
+		return h;
+	}
+
+	public void setH(int h) {
+		this.h = h;
+	}
+
+	@Override
+	public void calcularArea() {
+		System.out.println("A area do retângulo é: " + b*h); //syso para mostrar a Area 
+		
+	}
+
+
+	
 	
 }
-
-
-
-	
-}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
