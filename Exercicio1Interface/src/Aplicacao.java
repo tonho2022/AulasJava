@@ -1,17 +1,20 @@
 
-public class Aplicacao {
+public class main {
 
 	public static void main(String[] args) {
 		
-		AreaCalculavel circulo = new Circulo();
-		circulo.CalcularArea();
+		Quadrado quadrado = new Quadrado();
+		quadrado.setY(8);
+		quadrado.calcularArea();
 		
-		AreaCalculavel retangulo = new Retangulo();
-		retangulo.CalcularArea();
+		Circunferencia circunferencia = new Circunferencia();
+		circunferencia.setR(3);
+		circunferencia.getR();
+		circunferencia.calcularArea();
 		
-		AreaCalculavel triangulo = new Triangulo();
-		triangulo.CalcularArea();
-
+		Retangulo retangulo = new Retangulo();
+		retangulo.setB(7);
+		retangulo.setH(12);
+		retangulo.calcularArea();
 	}
-
 }
