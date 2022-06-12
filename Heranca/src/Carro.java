@@ -1,11 +1,11 @@
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo{//extends pois herda a superclasse veiculo 
 
 private boolean quatroPortas;
 
 	
 	@Override
-public void imprimir() {
+public void imprimir() {//override pois o metodo buzinar ja existe em outras classes
 	
 	super.imprimir();
 	System.out.println("Tem quatro portas " + quatroPortas);
@@ -13,7 +13,7 @@ public void imprimir() {
 
 	
 
-	public boolean isQuatroPortas() {
+	public boolean isQuatroPortas() {//ira retornar um valor boolean se tiver ou não tiver 4 portas
 		return quatroPortas;
 	}
 
