@@ -6,8 +6,8 @@ public class Veiculo  {
 	protected String modelo;
 	protected int ano;
 	
-	public void buzinar() {
-		System.out.println("BI BI");
+	public void buzinar() {//criando o metodo buzinar para a superclasse veiculo
+		System.out.println("BI BI");//mensagem que sera exibida na execução do programa
 	}
 
 	public void imprimir() {
@@ -22,7 +22,7 @@ public class Veiculo  {
 
 	public void setMarca(String marca) {
 		this.marca = marca;
-	}
+	}						//colocando gettes and setters para poder acessar valores privados da classe main
 
 	public String getModelo() {
 		return modelo;
