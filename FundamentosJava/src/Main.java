@@ -18,28 +18,28 @@ public class Main {
 		
 //		int idadePessoa = 60;
 //		if(idadePessoa < 18) {
-//			System.out.println("Você não pode beber");
+//			System.out.println("VocÃª nÃ£o pode beber");
 //		}
 //		else if(idadePessoa<60) {
 //			System.out.println("Bora tomar uma ");
 //		}else {
-//			System.out.println("Você é da terceira idade");
+//			System.out.println("VocÃª Ã© da terceira idade");
 //		}
 //		
 //			
-//		System.out.println("Você tem " + idadePessoa + " anos");	
+//		System.out.println("VocÃª tem " + idadePessoa + " anos");	
 //		
 //		int num = 8;
 //		
 //	switch (num) {
 //	case 1:
 //		System.out.println("domingo");
-//		break;
+//		break;serve para dar uma pausa no programa
 //	case 2:
 //		System.out.println("segunda");
 //		break;
 //	case 3:
-//		System.out.println("terça");
+//		System.out.println("terÃ§a");
 //		break;
 //	case 4:
 //		System.out.println("quarta");
@@ -61,10 +61,10 @@ public class Main {
 //	
 //	switch(caractere) {
 //		case 'a':
-//			System.out.println("seu caracter é a");
+//			System.out.println("seu caracter Ã© a");
 //			break;
 //		case 'b':
-//		System.out.println("seu caracter é b");
+//		System.out.println("seu caracter Ã© b");
 //		break;
 //		default:
 //		System.out.println("valor invalido ");
@@ -77,7 +77,7 @@ public class Main {
 //System.out.println("Siga");
 //break;
 //case "amarelo":
-//	System.out.println("tenha atenção");
+//	System.out.println("tenha atenÃ§Ã£o");
 //	break;
 //case "vermelho":
 //	System.out.println("PARE!");
@@ -98,7 +98,7 @@ public class Main {
 //	do {
 //		System.out.println(x);
 //		x=x+1; 
-//	}while(x<10);
+//	}while(x<10); funciona pra ser executado 'enquanto' for digitado os valores permitidos
 		
 	//	Scanner entrada = new Scanner (System.in);
 	//	System.out.println("Digite um numero qualquer");
@@ -130,7 +130,7 @@ public class Main {
 			
 			System.out.println(nome[aux1]);
 			if(nome[aux1] == "Heitor") {
-				System.out.println("O indice do Heitor é = " + aux1);
+				System.out.println("O indice do Heitor Ã© = " + aux1);
 			}
 			
 		}
