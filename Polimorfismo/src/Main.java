@@ -10,9 +10,9 @@ public class Main {
 	//	animal.falar();
 		
 		Gato gato=new Gato ();
-		Cachorro cachorro= new Cachorro ();
+		Cachorro cachorro= new Cachorro ();//criando novos objetos
 		falar(gato);
-		falar(cachorro);
+		falar(cachorro);//chamando o metodo falar e especificando de qual classe eu quero puxar
 
 	}
 	public static void falar (Animal a) {
