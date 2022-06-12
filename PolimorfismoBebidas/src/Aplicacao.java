@@ -6,7 +6,7 @@ public class Aplicacao {
 		Preparador preparador = new Preparador();
 		
 		LeiteQuente leiteQuente = new LeiteQuente();
-	preparador.prepararBebida(leiteQuente);
+	preparador.prepararBebida(leiteQuente);//puxar o método preparar bebida da subclasse 
 		
 		Refrigerante refrigerante = new Refrigerante();
 		preparador.prepararBebida(refrigerante);
