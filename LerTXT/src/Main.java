@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException{
-	try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){
+	try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){//lendo o arquivo txt
 		String line;
 		String string = "";
 		
@@ -21,7 +21,7 @@ public class Main {
 		
 	String teste = "Mouse: funciona = sim, qtdBotoes = 2, tamanho = pequeno\n";
 	
-	Mouse mouse = new Mouse (teste);
+	Mouse mouse = new Mouse (teste);// instanciando variavel mouse
 	
 	System.out.println(mouse);
 		
