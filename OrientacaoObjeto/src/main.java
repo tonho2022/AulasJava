@@ -6,7 +6,7 @@ public class main {
 		System.out.println(pessoa1);
 
 		pessoa1.nome = "Antonio";
-		pessoa1.numFigurinhas = 1;
+		pessoa1.numFigurinhas = 1;//puxando os metodos de outra classe colocando o '.'
 
 		pessoa1.receber(3);
 
