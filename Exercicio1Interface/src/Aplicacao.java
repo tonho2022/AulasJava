@@ -3,12 +3,12 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		Quadrado quadrado = new Quadrado();
+		Quadrado quadrado = new Quadrado();//criando objeto quadrado
 		quadrado.setY(8);
-		quadrado.calcularArea();
+		quadrado.calcularArea();//puxando metodo calcular area
 		
 		Circunferencia circunferencia = new Circunferencia();
-		circunferencia.setR(3);
+		circunferencia.setR(3);//acessando os metodos getter and setters que foram criados em suas respectivas classes
 		circunferencia.getR();
 		circunferencia.calcularArea();
 		
